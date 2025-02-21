@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="head">CGPA CALCULATOR</h1>
+<div  class="one" action="">
+    <span class="s1" >Sub 1</span>
+    <input id="num1" class="inp1"  value=""><br>
+    <span class="s2" >Sub 2</span>
+    <input id="num2"  class="inp2"  value=""><br>
+    <span class="s3" >Sub 3</span>
+    <input id="num3" class="inp3"  value=""><br>
+    <span class="s4" >Sub 4</span>
+    <input id="num4" class="inp4"  value=""><br>
+    <Span class="s5" >Sub 5</Span>
+    <input id="num5" class="inp5"  value=""><br>
+    <span class="s6" >Sub 6</span>
+    <input id="num6" class="inp6"  value=""><br>        
+    <span class="s7" >Prac 1</span>
+    <input id="num7" class="inp7"  value=""><br>
+    <span class="s8" >Prac 2</span>
+    <input id="num8" class="inp8"  value=""><br>
+    <span class="s9" >Prac 3</span>
+    <input id="num9" class="inp9"  value=""><br>
+    <button  class="btn"  onclick="change()">CHECK IT</button>
+    <p id="CGPA">CGPA</p>
+</div>
+
+    <script>
+        var box1 = document.getElementById("num1")
+        var box2 = document.getElementById("num2")
+        var box3 = document.getElementById("num3")
+        var box4 = document.getElementById("num4")
+        var box5 = document.getElementById("num5")
+        var box6 = document.getElementById("num6")
+        var box7 = document.getElementById("num7")
+        var box8 = document.getElementById("num8")
+        var box9 = document.getElementById("num9")
+        var CGPA = document.getElementById("CGPA")
+
+        function change(){
+        var box1value = Number(box1.value)
+        var box2value = Number(box2.value)
+        var box3value = Number(box3.value)
+        var box4value = Number(box4.value)
+        var box5value = Number(box5.value)
+        var box6value = Number(box6.value)
+        var box7value = Number(box7.value)
+        var box8value = Number(box8.value)
+        var box9value = Number(box9.value)
+        Total = ((box1value + box2value + box3value + box4value + box5value + box6value + box7value + box8value + box9value)/30)  
+        CGPA.textContent = Total
+        }
+    </script>
+</body>
+</html>

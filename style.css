@@ -1,0 +1,144 @@
+.head{
+    text-align: center;
+    color: white;
+}
+.one{
+    height: 380px;
+    width: 300px;
+    border-radius: 35px 40px 35px 40px;
+    border: 5px solid #34a158;
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    margin-left: 450px;
+    color: white;
+}
+#CGPA{
+    color: white;
+    position: relative;
+    top: 77px;
+}
+body{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+    background-color: #34a158;
+    width: 150px;
+    height: 30px;
+    border-radius: 12px;
+    text-align: center;
+    top: 70px;
+}
+.s1{
+    position: relative;
+    top: 7px;
+}
+.s2{
+    position: relative;
+    top: 14px;
+}
+.s3{
+    position: relative;
+    top: 21px;
+}
+.s4{
+    position: relative;
+    top: 28px;
+}
+.s5{
+    position: relative;
+    top: 35px;
+}
+.s6{
+    position: relative;
+    top: 42px;
+}
+.s7{
+    position: relative;
+    top: 49px;
+}
+.s8{
+    position: relative;
+    top: 56px;
+}
+.s9{
+    position: relative;
+    top: 63px;
+}
+.inp1{
+    height: 20px;
+    width: 150px;
+    border-radius: 8px;
+    text-decoration: none;
+    position: relative;
+    top: 7px;
+}
+.inp2{
+    height: 20px;
+    width: 150px;
+    border-radius: 8px;
+    text-decoration: none;
+    position: relative;
+    top: 14px;
+}
+.inp3{
+    height: 20px;
+    width: 150px;
+    border-radius: 8px;
+    text-decoration: none;
+    position: relative;
+    top: 21px;
+}
+.inp4{
+    height: 20px;
+    width: 150px;
+    border-radius: 8px;
+    text-decoration: none;
+    position: relative;
+    top: 28px;
+}
+.inp5{
+    height: 20px;
+    width: 150px;
+    border-radius: 8px;
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+}
+.inp6{
+    height: 20px;
+    width: 150px;
+    border-radius: 8px;
+    text-decoration: none;
+    position: relative;
+    top: 42px;
+}
+.inp7{
+    height: 20px;
+    width: 150px;
+    border-radius: 8px;
+    text-decoration: none;
+    position: relative;
+    top: 49px;
+}
+.inp8{
+    height: 20px;
+    width: 150px;
+    border-radius: 8px;
+    text-decoration: none;
+    position: relative;
+    top: 56px;
+}
+.inp9{
+    height: 20px;
+    width: 150px;
+    border-radius: 8px;
+    text-decoration: none;
+    position: relative;
+    top: 63px;
+}
